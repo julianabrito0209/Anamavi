@@ -144,3 +144,26 @@ main{
 }
 
 
+.imgcaes{
+    width:100%;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#modapraia{
+    background-image: url(imagens/bolsa\ praia/#fotoprincipal)
+}
+#diaadia{
+    background-image: url(imagens/dia\ a\ dia/#fotoprincipal)
+}
+#clutch{
+    background-image: url(imagens/clutch/clutch\ marsala.jpg)
+}
+#carteira{
+    background-image: url(imagens/carteiras/carteira\ em\ crocha¦Ç\ fio\ de\ malha\ @velaflorcroche.jpg)
+}
+.msg{
+    height: 200px;
+}
