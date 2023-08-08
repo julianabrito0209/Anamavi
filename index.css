@@ -107,6 +107,22 @@ main{
     
 }
 
+.classmain{
+    width: 100%;
+    height: 600px;
+    background-image: url(imagens/icones/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    
+}
+#pagprodutos{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
 #propagandas{
     width: 300px;
     margin: 10px 60px;

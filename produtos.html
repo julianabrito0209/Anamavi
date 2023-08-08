@@ -5,11 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PawShop</title>
-    <link rel="stylesheet" href="Style/bootstrap.css">
-    <link rel="stylesheet" href="Style/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <div id="page">
+        <header>
+            <div id="topo">
+                <h5>Consulte nosso catálogo, ele está incrível!</h5>
+
+            </div>
     <div class="container-fluid m-0 p-0">
         <header>
             <nav class="navbar navbar-expand-sm py-2">
@@ -19,38 +25,49 @@
                         <h1 id="nomeloja"> Anamavi</h1>
                         <img src="imagens/icones/c0bc11c8-0cd5-4c17-ad08-ade53924ac41.jpg" alt="" id="beijaflor">
                 </div>
+                <nav id="centro">
 
-                
-            
-                <!-- lado direito -->
-                <div class="container-fluid d-flex justify-content-center">
-                    <div class="row">
-                    <ul class="navbar-nav d-flex justify-content-center" style="list-style: none;">
-                        <li class="navbar-item"> <a href="#" class="nav-link" style="color:grey">Promoções</a></li>
-                        <li class="navbar-item"> <a href="#" class="nav-link" style="color:grey">Atemdimentos</a></li>
-                        <li class="navbar-item"> <a href="#" class="nav-link" style="color:grey">Voltar</a></li>
-                        
-                    </ul>
-                </div>
-                 </div>   
-            </nav>
+                    <a href="index.html" class="menu">Home</a>
+                    <a href="#" class="menu">Promoções</a>
+                    <a href="#" class="menu">Atendimento </a>
+                </nav>
+
+                <nav id="menudireita">
+                    
+                    <a href="index.html">
+                        <button id="botaoLogin" class="botao" >Minha conta</button>
+                    </a>
+               
+                </nav>
+               </nav>
+               
         </header>
+        <main class="my-5 py-5">
+
+            <div class="container-fluid " >
+
+             <div class="classmain ">
+                <h1 id="nomeloja" class="text-center ms-5 ps-5"> Encomende seu modelo preferido aqui! </h1>
+                
+                </div>
+            </div>
+            </main>
+       
 
         <!-- Carrosel -->
+        <div class="container-fluid">
 
-    <div class="carousel slide" id="demo" data-bs-ride="carousel">
+    <div class="carousel slide my-2" id="demo" data-bs-ride="carousel">
         <!-- slider -->
-        <div class="carousel-inner" style="width 100% height 400px overflow:hidden;" >
+        <div class="carousel-inner" style="height: 700px;" >
             <div class="carousel-item active">
-                <img src="imagens/carteiras/Bolsa Carteira Moda Praia.jpg" alt="" style="width: 100%;"></div>
+                <img src="imagens/carrosel/3.png" alt=""></div>
             <div class="carousel-item">
-                <img src="imagens/clutch/clutch neon.jpg" alt="" style="width: 100%;"></div>
+                <img src="imagens/carrosel/1.png" alt="" ></div>
             <div class="carousel-item">
-                <img src="imagens/bolsa praia/Bolsa de praia em crocha¦Ç cinza.jpg" alt="" style="width: 100%;"></div>
+                <img src="imagens/carrosel/2.png" alt="" ></div>
             <div class="carousel-item">
-                <img src="imagens/Tal mÔêåe tal filha/Bolsa.jpg" alt="" style="width: 100%;"></div>
-            <div class="carousel-item">
-                <img src="imagens/dia a dia/banner.jpg" alt="" style="width: 100%;"></div>
+      
             
         </div>
         <!-- controladores -->
@@ -58,63 +75,73 @@
             <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
             <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
             <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+           
         </div>
+         <!-- 
+         professor, comentei essa parte pq ficou dando BUG, 
+         após a ultima imagem, aparecia uma tela branca e o carrossel parava de funcionar -->
+
+            <!-- controladores setas -->
+         <!-- <button type="button" class="carousel-control-prev" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            
+        </button>
+        <button type="button" class="carousel-control-next" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+
+        </button> -->
     </div>
+    </div>
+</main>
     <div class="my-4" style="text-align: center;">
         <h5 class="text-info">Produtos Exclusivos</h5>
-        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet expedita voluptates ut accusamus numquam pariatur rem. Ducimus iure, ipsam necessitatibus similique quidem optio, commodi, omnis aliquid at debitis soluta aspernatur.</P>
+        <P>Bolsas feitas sob encomenda, no seu estilo, com tamanho e detalhes que você pode definir! Consulte nosso catálogo e escolha a sua preferida! Não deixe de nos contactar para tirar dúvidas ou pedir mais informações. odi, omnis aliquid at debitis soluta aspernatur.</P>
     </div>
 
-    <!-- quatro categorias -->
-    <div class="container-fluid" >
-        <div class="row">
-            <div class="col img" id="modapraia"> </div>
-            <div class="col img" id="diaadia"></div>
-            <div class="col img" id="clutch"></div>
-            <div class="col img" id="carteira"></div>
-         
-           </div>
-        
+    
+
+        <div class="container ">
+            <H1 class="my-5 mx-auto text-center text-info" >Escolha a forma de pagamento que melhor te atender:</H1>
         </div>
-      </div>
+
+        <!-- seção dos pagamentos -->
+        <main>
+         <div class="row d-flex justify-content-center my-5 container-fluid">
+            <div class="col-md-3 ">
+                <div class="card ms-5">
+                    <img src="imagens/codigoDeBarras.svg" alt="" style="width: 60%;" class="mx-auto card-img" > 
+                    <div class="card-body text-center">
+                        <h1 class="card-title">BOLETO</h1>
+                    </div>
+                </div> 
+                </div>
+
+                <div class="col-md-3 ">
+                <div class="card ms-5">
+                    <img src="imagens/Dinheiro.svg" alt="" style="width: 60%;" class="mx-auto card-img" > 
+                    <div class="card-body text-center">
+                        <h1 class="card-title">DINHEIRO</h1>
+                    </div>
+                </div>
+                </div>
+
+
+                <div class="col-md-3 ">
+                    <div class="card ms-5">
+                        <img src="imagens/CartaoDeCredito.svg" alt="" style="width: 60%;" class="mx-auto card-img" > 
+                        <div class="card-body text-center">
+                            <h1 class="card-title">CARTÃO</h1>
+                        </div>
+                    </div>
+                </div>
+
+                </div> 
+            </main>
+
      
-      <!-- <div class="container-fluid" style="heigth:350px">
-        <div class="row">
-            <div class="col-6 py-3 px-2">
-                <h5 class="text-info">QUEM NÓS SOMOS?</h5> 
-                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum illum itaque esse, pariatur quam enim dolorum deserunt perspiciatis cumque quasi dignissimos quisquam sapiente modi. Distinctio repellat excepturi quisquam sapiente necessitatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde temporibus deserunt hic reiciendis blanditiis quod repudiandae ipsum repellendus, nemo fugit ex minima numquam, laborum atque in dolor assumenda vel nulla. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum eius autem delectus id eos dolore modi excepturi, ea voluptates aspernatur quia possimus, est, et amet quod asperiores eveniet corrupti natus? </P>
-            </div>
-           
-            <div class="col-6  p-0"><img src="Images/food2.jpg" alt="" style="width: 100%; height:100%"></div>
-         
-        </div>
-        <div class="row">        
-            <div class="col-6  px-0"><img src="Images/toy1.jpg" alt="" style="width: 100%; height:100%"></div>
-            <div class="col-6 py-3 px-2 bg-info" >
-                <h5 class="text-light">NÓS TEMOS TODA DIVERSÃO QUE PRECISA!</h5> 
-                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum illum itaque esse, pariatur quam enim dolorum deserunt perspiciatis cumque quasi dignissimos quisquam sapiente modi. Distinctio repellat excepturi quisquam sapiente necessitatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde temporibus deserunt hic reiciendis blanditiis quod repudiandae ipsum repellendus, nemo fugit ex minima numquam, laborum atque in dolor assumenda vel nulla. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum eius autem delectus id eos dolore modi excepturi, ea voluptates aspernatur quia possimus, est, et amet quod asperiores eveniet corrupti natus? </P>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-6 py-3 px-2">
-                <h5 class="text-info">ENTRE EM CONTATO</h5> 
-                <div class="d-flex flex-column" style="width: 50%; ">
-                    <input type="text" placeholder="Aqui seu e-mail">
-                    <input type="text" placeholder="Escreva seu nome">
-                    <input type="text" placeholder="Escreva sua mensagem" class="msg">
-            </div>
-            </div>
-           
-            <div class="col-6  p-0"><img src="Images/thanks.jpg" alt="" style="width: 100%; height:100%"></div>
-         
-        </div>
-        
-        </div> -->
-
-    </div>
   
-    <script src="Scripts/bootstrap.js"></script>
-    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+    <script src="scripts/bootstrap.bundle.min.js"></script>
 </body>
 </html>
