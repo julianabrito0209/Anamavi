@@ -1,0 +1,79 @@
+/*@media screen and (max-whidth : 600px){
+
+} */
+
+section{
+    width: 100%;
+    height: 500px;
+    padding: 10px 0px;
+    background-image:url(../../../imagens/icones/fundo.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#categoriasGrupo{
+    width: 90%;
+    height: 400px;
+  
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.categoria{
+    width: 30%;
+    height: 100%;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+     
+   
+}
+
+#bolsaPraia{
+    background-image: url(../../../imagens/bolsapraia/Bolsa\ praia\ de\ croche\ com\ ala¦üa\ de\ madeira\ _\ Elo7.jpg);
+}
+
+#clutch{
+    background-image: url(../../../imagens/clutch/Latest\ Crochets\ clutch\ aquamarine.jpg);
+}
+
+#maeFilha{
+    background-image: url(../../../imagens/maeFilha/Bolsa.jpg);
+}
+
+
+.categoriaDescricao{
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    
+    margin: 20px 0px;
+    border-radius: 40px;
+    display: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
