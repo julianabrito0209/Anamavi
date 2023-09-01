@@ -1,19 +1,30 @@
-//const mobile = documento.getElementById("mobile")
-//const mobile = documento.querySelector("#mobile")
-//javascript (acima)
+
 const bolsaPraia = $("#bolsaPraia")
 const clutch = $("#clutch")
 const maeFilha = $("#maeFilha")
-const descricaoBolsaPraia = $("#descricaoMobile")
+
+const descricaoBolsaPraia = $("#descricaoBolsaPraia")
 const descricaoClutch = $("#descricaoClutch")
 const descricaoMaeFilha = $("#descricaoMaeFilha")
 
-//mobile.addEventListener('click', mostrarDescMobile)
-//function mostrarDescMobile(){
 
-//}
+bolsaPraia.on('click' , function(){
+    descricaoBolsaPraia.slideToggle(500)
+    descricaoClutch.slideUp(100)
+    descricaoMaeFilha.slideUp(100)
 
-mobile.on('click', function(){
-    descricaoMobile.slideToggle(500)
+})
+
+clutch.on('click' , function(){
+    descricaoClutch.slideToggle(500)
+    descricaoBolsaPraia.slideUp(100)
+    descricaoMaeFilha.slideUp(100)
+})
+
+maeFilha.on('click' , function(){
+    descricaoMaeFilha.slideToggle(500)
+    descricaoBolsaPraia.slideUp(100)
+    descricaoClutch.slideUp(100)
+    
 
 })

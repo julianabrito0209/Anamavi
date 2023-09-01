@@ -1,0 +1,27 @@
+@font-face {
+    font-family: Billani;
+    src: url(../Fontes/soul_billani/SoulBillani.otf);
+}
+@font-face {
+    font-family: Roseblue;
+    src: url(../Fontes/roseblue/Roseblue.ttf)
+}
+@font-face {
+    font-family: Bestigia;
+    src: url(../Fontes/bestigia/Readme.txt);
+   
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+#atendimento{
+    font-size: 18pt;
+    color: rgb(161, 67, 174);
+    font-family: Roseblue;
+    text-align: center;
+}
+#contatodoCliente{
+    font-size: 10pt;
+}

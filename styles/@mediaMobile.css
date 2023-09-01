@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Billani;
+    src: url(../Fontes/soul_billani/SoulBillani.otf);
+}
+@font-face {
+    font-family: Chocolates;
+    src: url(../Fontes/tt_chocolates/TT\ Chocolates\ Trial\ Bold.otf);
+   
+}
+@font-face {
+    font-family: Bestigia;
+    src: url(../Fontes/bestigia/Bestigia-Regular.ttf);
+   
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: chocolates;
+}
+.inicio{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+.fim{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.meio{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.experiencia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textoModoMobile{
+    text-align: center;
+    color: rgba(180, 109, 147, 0.856);
+    font-family: Billani;
+
+
+}
